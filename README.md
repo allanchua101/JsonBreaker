@@ -11,10 +11,10 @@ Smaller static JSON files enables loading of data in a paginated fashion. To ela
 - Efficient initial load time
 - Smaller HTTP request
 - Smaller outbound traffic cost if your hosting your site on cloud-based providers.
-- Faster multi-region response time since latency will never be an issue (Latency is the time required for a certain packet of communication to travel across a given distance) since it only requires one round trip for communication to complete (The huge JSON file, won't fit on a typical packet size 1024 bytes to 4098 bytes).
+- Faster multi-region response time since latency will never be an issue (Latency is the time required for a certain packet of communication to travel across a given distance) since it only requires one round trip for communication to complete (The huge JSON file, would not fit on a typical transmission unit).
 
 ## Notes
 
 I hope this tool will help alot of people out there and please do feel free to contribute to this repository, I'll gladly review your changes and accept them.
 
-Cheers!
+### Cheers!
